@@ -1,0 +1,54 @@
+body {
+    background-color: darksalmon;
+    margin: auto;
+}
+
+.titulo {
+
+    font-family: 'Spectral', serif;
+    padding: 0 35rem;
+    text-align: center;
+    font-size: xx-large;
+
+}
+h1 {
+    color: rgb(100, 44, 5);
+    text-align: center;
+    font-size: 30px;
+}
+
+.content .tarjet {
+    margin: 2rem auto;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    flex-basis: min-content;
+}
+
+.content .textTarjet {
+    padding: auto;
+    text-align: center;
+
+}
+
+.content {
+    align-content: center;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.contenedor .tarjeta {
+    text-align: center;
+    
+}
+
+.contenedor .textTarjeta {
+    padding: auto;
+
+}
+.contenedor .textTarjeta p{
+    padding: auto;
+    -webkit-user-modify: read-write-plaintext-only;
+
+}
